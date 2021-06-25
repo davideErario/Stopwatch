@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3cf744780d.js" crossorigin="anonymous"></script>
+    <title>Stopwatch</title>
+</head>
+
+<body>
+    <div class="all">
+        <div class="title">
+            <h1>Stopwatch</h1>
+        </div>
+
+        <div id="stopwatch">
+            00:00:00
+        </div>
+
+        <div class="buttons">
+            <button id="playpause" class="fas fa-play" onclick="startWatch()"></button>
+            <button id="reset" class="fas fa-stop" onclick="resetWatch()"></button>
+        </div>
+
+        <script src="behaviour.js"></script>
+    </div>
+</body>
+
+</html>
